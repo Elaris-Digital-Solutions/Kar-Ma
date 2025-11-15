@@ -72,13 +72,13 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-          className="w-full flex justify-center mb-8"
+          className="w-full flex justify-center mt-20 mb-10"
         >
           <div className="max-w-4xl w-full">
             <img 
-              src="/assets/kar-ma-logo.png" 
+              src="/assets/kar-ma.png" 
               alt="Kar & Ma" 
-              className="h-64 md:h-96 lg:h-[500px] w-auto mx-auto object-contain drop-shadow-2xl"
+              className="h-64 md:h-96 lg:h-[100px] w-auto mx-auto object-contain drop-shadow-2xl"
             />
           </div>
         </motion.div>

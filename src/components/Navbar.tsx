@@ -39,11 +39,11 @@ export const Navbar: React.FC = () => {
             {/* Logo */}
             <Link to="/">
               <motion.img
-                src="/assets/kar-ma-logo.png"
+                src="/assets/kar-ma.png"
                 alt="Kar & Ma"
                 className={cn(
-                  'transition-all duration-700 filter brightness-0 invert',
-                  isScrolled ? 'w-10 h-10 md:w-12 md:h-12' : 'w-12 h-12 md:w-16 md:h-16'
+                  'transition-all duration-700 filter brightness-0 invert object-contain w-auto',
+                  isScrolled ? 'h-5 md:h-4' : 'h-8 md:h-6'
                 )}
               />
             </Link>

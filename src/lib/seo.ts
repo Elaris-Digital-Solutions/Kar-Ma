@@ -13,7 +13,7 @@ export interface MetaTags {
 }
 
 const SITE_URL = import.meta.env.VITE_SITE_URL || 'https://karma.com.pe';
-const DEFAULT_IMAGE = '/assets/kar-ma-logo.png';
+const DEFAULT_IMAGE = '/assets/kar-ma.png';
 const DEFAULT_AUTHOR = 'Kar & Ma S.A.C.';
 
 /**
@@ -128,7 +128,7 @@ export const routeMetaTags: Record<string, MetaTags> = {
     description: 'Descubre nuestras submarcas: Salina, productos premium para retail y gastronomía; y Norteñita, sal tradicional con raíces norteñas para el hogar peruano.',
     path: '/submarcas',
     keywords: 'Salina, Norteñita, submarcas sal, marcas sal peruana, sal premium, sal tradicional',
-    image: '/assets/kar-ma-logo.png',
+    image: '/assets/kar-ma.png',
   },
   '/segmentos': {
     title: 'Segmentos de Negocio – Comercial e Industrial | Kar & Ma',
