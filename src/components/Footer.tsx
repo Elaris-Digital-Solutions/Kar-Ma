@@ -49,7 +49,7 @@ const Footer = () => {
             {/* Brand */}
             <div className="xl:col-span-2">
               <div className="flex items-center mb-6">
-                <img src="/assets/kar-ma-logo.png" alt="Kar & Ma" className="h-16 w-auto object-contain filter brightness-0 invert" />
+                <img src="/assets/kar-ma-logoo.png" alt="Kar & Ma" className="h-16 w-auto object-contain filter brightness-0 invert" />
               </div>
               <p className="text-primary-foreground/80 mb-6 max-w-lg leading-relaxed text-base md:text-lg">
                 Consorcio peruano con 25 años de experiencia en la producción de sal retail e industrial, respaldado por la confianza del pueblo del norte.
@@ -101,7 +101,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <section className="border-t border-primary-foreground/20 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-            <p className="text-primary-foreground/70 text-center md:text-left">© {currentYear} Kar & Ma. Todos los derechos reservados.</p>
+            <p className="text-primary-foreground/70 text-center md:text-left">© {currentYear} Kar & Ma. Todos los derechos reservados. <a href="https://www.instagram.com/elarisdigitalsolutions" target="_blank" rel="noopener noreferrer" className="underline decoration-white/20 decoration-1 underline-offset-2 hover:decoration-white/40">Desarrollado por Elaris Digital Solutions</a></p>
             <div className="flex gap-6 text-primary-foreground/60">
               <span className="hover:text-white transition-colors cursor-pointer">Política de Privacidad</span>
               <span className="hover:text-white transition-colors cursor-pointer">Términos de Servicio</span>
