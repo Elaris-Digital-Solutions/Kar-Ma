@@ -177,6 +177,21 @@ const ContactSection = () => {
                 </div>
               </CardContent>
             </Card>
+
+            <Card>
+              <CardContent className="p-2">
+                <div className="rounded-xl overflow-hidden border border-primary/20 shadow-sm h-64">
+                  <iframe
+                    title="Ubicación de Kar & Ma"
+                    src="https://maps.google.com/maps?q=Zona%20Industrial%20Salinera%20Peru&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                    className="w-full h-full"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    allowFullScreen
+                  />
+                </div>
+              </CardContent>
+            </Card>
           </motion.div>
         </div>
 
