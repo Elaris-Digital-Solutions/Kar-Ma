@@ -54,11 +54,6 @@ const Footer = () => {
               <p className="text-primary-foreground/80 mb-6 max-w-lg leading-relaxed text-base md:text-lg">
                 Consorcio peruano con 25 años de experiencia en la producción de sal retail e industrial, respaldado por la confianza del pueblo del norte.
               </p>
-              <div className="space-y-3 text-primary-foreground/80">
-                <div className="flex items-center gap-3"><MapPin className="w-5 h-5" /><span>Planta Industrial - Región Norte del Perú</span></div>
-                <div className="flex items-center gap-3"><Phone className="w-5 h-5" /><span>{CONTACT_PHONE || '+51 999 999 999'}</span></div>
-                <div className="flex items-center gap-3"><Mail className="w-5 h-5" /><span>{CONTACT_EMAIL || 'contacto@karma.com.pe'}</span></div>
-              </div>
               {/* Social (oculto por ahora) */}
             </div>
 
@@ -95,6 +90,12 @@ const Footer = () => {
                 <img loading="lazy" decoding="async" src="/assets/bpm.png" alt="BPM" className="h-10 w-auto object-contain bg-white/10 rounded-md p-1" />
               </div>
             </div>
+          </div>
+
+          <div className="text-primary-foreground/80 flex flex-row pt-10 space-y-4 md:space-y-0 md:space-x-8 flex-wrap justify-between px-5 mt-10">
+            <div className="flex items-center"><MapPin className="w-5 h-5" /><span>Planta Industrial - Región Norte del Perú</span></div>
+            <div className="flex items-center"><Phone className="w-5 h-5" /><span>{CONTACT_PHONE || '+51 999 999 999'}</span></div>
+            <div className="flex items-center"><Mail className="w-5 h-5" /><span>{CONTACT_EMAIL || 'contacto@karma.com.pe'}</span></div>
           </div>
         </section>
 
