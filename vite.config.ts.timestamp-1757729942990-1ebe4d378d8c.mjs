@@ -2,7 +2,6 @@
 import { defineConfig } from "file:///Users/facundomaco/Documents/GitHub/kar-ma-north-shine/node_modules/vite/dist/node/index.js";
 import react from "file:///Users/facundomaco/Documents/GitHub/kar-ma-north-shine/node_modules/@vitejs/plugin-react-swc/index.js";
 import path from "path";
-import { componentTagger } from "file:///Users/facundomaco/Documents/GitHub/kar-ma-north-shine/node_modules/lovable-tagger/dist/index.js";
 var __vite_injected_original_dirname = "/Users/facundomaco/Documents/GitHub/kar-ma-north-shine";
 var vite_config_default = defineConfig(({ mode }) => ({
   server: {

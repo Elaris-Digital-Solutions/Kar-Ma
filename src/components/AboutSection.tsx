@@ -125,68 +125,6 @@ const AboutSection = () => {
           </Reveal>
         </div>
 
-        {/* Misión, Visión, Valores */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <Reveal direction="up" delay={0.2} width="100%">
-            <div className="group relative h-full">
-              <div className="absolute -inset-0.5 bg-gradient-to-br from-primary/40 via-emerald-400/40 to-primary/40 rounded-2xl blur opacity-30 group-hover:opacity-50 transition" />
-              <div className="relative h-full rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl shadow-xl transition-transform duration-300 group-hover:-translate-y-1">
-                <div className="p-8">
-                  <div className="w-16 h-16 mx-auto mb-5 rounded-2xl grid place-items-center bg-gradient-to-br from-primary/15 to-emerald-500/15 ring-1 ring-white/40 relative overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 via-white/10 to-emerald-400/20 opacity-60" />
-                    <Rocket className="w-7 h-7 text-primary relative z-10" />
-                  </div>
-                  <h3 className="text-xl font-bold text-primary mb-3">Misión</h3>
-                  <p className="text-muted-foreground">
-                    Proveer sal de excelente calidad para el mercado retail e industrial,
-                    manteniendo los más altos estándares de producción y servicio al cliente.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </Reveal>
-
-          <Reveal direction="up" delay={0.4} width="100%">
-            <div className="group relative h-full">
-              <div className="absolute -inset-0.5 bg-gradient-to-br from-primary/40 via-emerald-400/40 to-primary/40 rounded-2xl blur opacity-30 group-hover:opacity-50 transition" />
-              <div className="relative h-full rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl shadow-xl transition-transform duration-300 group-hover:-translate-y-1">
-                <div className="p-8">
-                  <div className="w-16 h-16 mx-auto mb-5 rounded-2xl grid place-items-center bg-gradient-to-br from-primary/15 to-emerald-500/15 ring-1 ring-white/40 relative overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 via-white/10 to-emerald-400/20 opacity-60" />
-                    <Compass className="w-7 h-7 text-primary relative z-10" />
-                  </div>
-                  <h3 className="text-xl font-bold text-primary mb-3">Visión</h3>
-                  <p className="text-muted-foreground">
-                    Ser el consorcio salinero líder en el Perú, reconocido por nuestra
-                    calidad, innovación y compromiso con el desarrollo sostenible.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </Reveal>
-
-          <Reveal direction="up" delay={0.6} width="100%">
-            <div className="group relative h-full">
-              <div className="absolute -inset-0.5 bg-gradient-to-br from-primary/40 via-emerald-400/40 to-primary/40 rounded-2xl blur opacity-30 group-hover:opacity-50 transition" />
-              <div className="relative h-full rounded-2xl border border-white/20 bg-white/70 backdrop-blur-xl shadow-xl transition-transform duration-300 group-hover:-translate-y-1">
-                <div className="p-8">
-                  <div className="w-16 h-16 mx-auto mb-5 rounded-2xl grid place-items-center bg-gradient-to-br from-primary/15 to-emerald-500/15 ring-1 ring-white/40 relative overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 via-white/10 to-emerald-400/20 opacity-60" />
-                    <ShieldCheck className="w-7 h-7 text-primary relative z-10" />
-                  </div>
-                  <h3 className="text-xl font-bold text-primary mb-3">Valores</h3>
-                  <div className="text-muted-foreground space-y-2">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">Calidad</div>
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">Confianza</div>
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">Innovación</div>
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">Tradición</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Reveal>
-        </div>
-
         {/* Separador sutil final */}
         <div className="relative">
           <div className="h-10 w-full bg-gradient-to-b from-transparent via-primary/5 to-transparent rounded-full blur" />
